@@ -1,0 +1,31 @@
+header{
+  grid-area: header;
+  height:200px;
+  background-color: black;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+header > div > a > img{
+  width:200px;
+  height:200px;
+  align-content: center;
+}
+header > nav > menu{
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 100px;
+}
+footer{
+  grid-area: header;
+  height:200px;
+  background-color: black;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+footer > div > a > img{
+  width:200px;
+  height:200px;
+  align-content: center;
+}
